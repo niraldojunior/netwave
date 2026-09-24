@@ -1,0 +1,34 @@
+/* ============================================================
+   V.tal Nexus — Spacing & Layout Tokens
+   4px base grid. Component padding lives on the 8/12/16 steps.
+   ============================================================ */
+
+:root {
+  /* ---- Spacing scale (4px base) ---------------------------- */
+  --space-0: 0;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+
+  /* ---- App layout ------------------------------------------ */
+  --rail-width: 72px;        /* icon-only primary nav (Locais module default) */
+  --sidebar-width: 248px;    /* labeled sidebar (Studio, Settings) */
+  --panel-width: 400px;      /* floating panel over the map */
+  --float-gap: 16px;         /* inset of floating chrome from the viewport */
+  --sidebar-collapsed: 56px;
+  --header-height: 52px;      /* floating chrome only — there is no fixed top bar */
+  --content-pad: 20px;
+  --content-max: 1440px;
+  --prose-max: 46rem;   /* reading column cap */
+  --thread-max: 52rem;  /* conversation transcript + composer column */
+
+  /* ---- Common gaps ----------------------------------------- */
+  --gap-tight: 8px;
+  --gap-card: 12px;
+  --gap-section: 16px;
+}
