@@ -119,9 +119,9 @@ LOG_LEVEL=info
 # Banco de Dados Oracle (Instância de Dev)
 # Todas as tabelas criadas no banco compartilhado utilizam obrigatoriamente o prefixo NW_
 DATABASE_PROVIDER=in-memory   # ou 'oracle' para persistência direta
-ORACLE_CONNECTION_STRING=oraculod-h1:1549/oraculod
-ORACLE_USER=ORACULOD
-ORACLE_PASSWORD=VCG2_4GDkpPusIv9amgwp
+ORACLE_CONNECTION_STRING=XXXXXX
+ORACLE_USER=XXXX
+ORACLE_PASSWORD=XXXXX
 ORACLE_OBJECT_PREFIX=NW_
 ORACLE_POOL_MIN=1
 ORACLE_POOL_MAX=5
